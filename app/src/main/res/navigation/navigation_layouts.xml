@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_layouts"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.example.pr4.StartFragment"
+        android:label="fragment_start"
+        tools:layout="@layout/fragment_start" />
+    <fragment
+        android:id="@+id/linearCodeFragment"
+        android:name="com.example.pr4.Linear.LinearCodeFragment"
+        android:label="fragment_linear"
+        tools:layout="@layout/fragment_linear_code" />
+    <fragment
+        android:id="@+id/linearXMLFragment"
+        android:name="com.example.pr4.Linear.LinearXMLFragment"
+        android:label="LinearXMLFragment" />
+    <fragment
+        android:id="@+id/relativeCodeFragment"
+        android:name="com.example.pr4.Relative.RelativeCodeFragment"
+        android:label="fragment_relative_code"
+        tools:layout="@layout/fragment_relative_code" />
+    <fragment
+        android:id="@+id/relativeXMLFragment"
+        android:name="com.example.pr4.Relative.RelativeXMLFragment"
+        android:label="RelativeXMLFragment" />
+    <fragment
+        android:id="@+id/tableCodeFragment"
+        android:name="com.example.pr4.Table.TableCodeFragment"
+        android:label="fragment_table_code"
+        tools:layout="@layout/fragment_table_code" />
+    <fragment
+        android:id="@+id/tableXMLFragment"
+        android:name="com.example.pr4.Table.TableXMLFragment"
+        android:label="fragment_table_x_m_l"
+        tools:layout="@layout/fragment_table_x_m_l" />
+    <fragment
+        android:id="@+id/frameCodeFragment"
+        android:name="com.example.pr4.Frame.FrameCodeFragment"
+        android:label="fragment_frame_code"
+        tools:layout="@layout/fragment_frame_code" />
+    <fragment
+        android:id="@+id/frameXMLFragment"
+        android:name="com.example.pr4.Frame.FrameXMLFragment"
+        android:label="fragment_frame_x_m_l"
+        tools:layout="@layout/fragment_frame_x_m_l" />
+    <fragment
+        android:id="@+id/gridCodeFragment"
+        android:name="com.example.pr4.Grid.GridCodeFragment"
+        android:label="fragment_grid_code"
+        tools:layout="@layout/fragment_grid_code" />
+    <fragment
+        android:id="@+id/gridXMLFragment"
+        android:name="com.example.pr4.Grid.GridXMLFragment"
+        android:label="GridXMLFragment" />
+</navigation>

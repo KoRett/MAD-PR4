@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartFragment">
+
+    <Button
+        android:id="@+id/bt_ll_c"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:text="Linear Layout Code"
+        app:layout_constraintBottom_toTopOf="@id/bt_rl_c"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/bt_ll_x"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt_ll_x"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:text="Linear Layout XML"
+        app:layout_constraintBottom_toTopOf="@id/bt_rl_x"
+        app:layout_constraintLeft_toRightOf="@id/bt_ll_c"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt_rl_c"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:text="Relative Layout Code"
+        app:layout_constraintBottom_toTopOf="@id/bt_tl_c"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/bt_rl_x"
+        app:layout_constraintTop_toBottomOf="@id/bt_ll_c" />
+
+    <Button
+        android:id="@+id/bt_rl_x"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:text="Relative Layout XML"
+        app:layout_constraintBottom_toTopOf="@id/bt_tl_x"
+        app:layout_constraintLeft_toRightOf="@id/bt_rl_c"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bt_ll_x" />
+
+    <Button
+        android:id="@+id/bt_tl_c"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:text="Table Layout Code"
+        app:layout_constraintBottom_toTopOf="@id/bt_fl_c"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/bt_tl_x"
+        app:layout_constraintTop_toBottomOf="@id/bt_rl_c" />
+
+    <Button
+        android:id="@+id/bt_tl_x"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:text="Table Layout XML"
+        app:layout_constraintBottom_toTopOf="@id/bt_fl_x"
+        app:layout_constraintLeft_toRightOf="@id/bt_tl_c"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bt_rl_x" />
+
+    <Button
+        android:id="@+id/bt_fl_c"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:text="Frame Layout Code"
+        app:layout_constraintBottom_toTopOf="@id/bt_gl_c"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/bt_fl_x"
+        app:layout_constraintTop_toBottomOf="@id/bt_tl_c" />
+
+    <Button
+        android:id="@+id/bt_fl_x"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:text="Frame Layout XML"
+        app:layout_constraintBottom_toTopOf="@id/bt_gl_x"
+        app:layout_constraintLeft_toRightOf="@id/bt_fl_c"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bt_tl_x" />
+
+    <Button
+        android:id="@+id/bt_gl_c"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:text="Grid Layout Code"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/bt_gl_x"
+        app:layout_constraintTop_toBottomOf="@id/bt_fl_c" />
+
+    <Button
+        android:id="@+id/bt_gl_x"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:text="Grid Layout XML"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/bt_gl_c"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bt_fl_x" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
